@@ -1,0 +1,10 @@
+Authorizer: Tao Zhao
+
+The provided Makefile is for ANTLR v4.
+Use "make" in command line to compile.
+Use "java -cp lib/antlr.jar:classes/ Micro (path of input file) > (path of output file)" in command line to run and get the result file.
+Example command to run: "java -cp lib/antlr.jar:classes/ Micro testcases/input/fibonacci.micro > testcases/output/fibonacci.out"
+Use "make clean" to clean the classes generated during compile process.
+You need to edit your own Makefile if you're using v3 or something else.
+
+Micro.g4 is the grammar file that you may want to edit and Micro.java is the main java program. 
