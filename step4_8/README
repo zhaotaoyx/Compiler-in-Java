@@ -1,0 +1,15 @@
+The provided Makefile is for ANTLR v4.
+You need to edit your own Makefile if you're using v3 or something else.
+
+Micro.g4 is the grammar file that you may want to edit and Micro.java is the main java program. 
+
+Command line is as before steps.
+
+There are several things I need to mention:
+1. This is NOT a perfect compiler, it could compile most testcases, but there are still a few testcases it cannot pass.
+
+2. This compiler could run with any number of registers (minimum is 3), so you need to set the number of registers in "Micro.java". 
+
+3. There is function called "reduce" in "Reduce.java". If your testcase is not very tricky, you could turn it on in "Micro.java". This function will help to remove unnecessary operations, which will save a lot of cycles. But this function is NOT necessary.
+
+4. There are several print functions in "Micro.java". The purpose of these print functions is to help to understand the whole process of parsing and also help to debug.
