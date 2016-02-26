@@ -4,6 +4,13 @@ You need to edit your own Makefile if you're using v3 or something else.
 Micro.g4 is the grammar file that you may want to edit and Micro.java is the main java program. 
 
 Command line is as before steps.
+And after you got the result from this compiler, you need to run it. 
+Example command: 
+"gcc tinyNew.C -o tiny",
+"./tiny testcases/output/fibonacci.out < testcases/input/fibonacci.input"
+Then, you can get the final result, which is the result after executint your input code.
+
+
 
 There are several things I need to mention:
 1. This is NOT a perfect compiler, it could compile most testcases, but there are still a few testcases it cannot pass.
