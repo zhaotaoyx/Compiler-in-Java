@@ -1,8 +1,6 @@
 LIB_ANTLR := lib/antlr.jar
 ANTLR_SCRIPT := Micro.g4
 
-authorizer:
-	"Tao Zhao"
 
 compiler:
 	rm -rf build
