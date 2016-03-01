@@ -1,5 +1,5 @@
 # Compiler-in-Java
-A compiler in Java using Atlr4
+A compiler in Java using Antlr4
 This is a Compiler coding in Java using Antlr4.
 It is divided into 8 steps:
 step1: Recognize input tokens.
